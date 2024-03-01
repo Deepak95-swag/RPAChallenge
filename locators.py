@@ -1,0 +1,11 @@
+class RPAChallenge:
+    start = "//button[text()='Start']"
+    FirstName = "//input[@ng-reflect-name='labelFirstName']"
+    LastName = "//input[@ng-reflect-name='labelLastName']"
+    CompanyName = "//input[@ng-reflect-name='labelCompanyName']"
+    RoleInCompany = "//input[@ng-reflect-name='labelRole']"
+    Address = "//input[@ng-reflect-name='labelAddress']"
+    Email = "//input[@ng-reflect-name='labelEmail']"
+    PhoneNumber = "//input[@ng-reflect-name='labelPhone']"
+    click = "//input[@class='btn uiColorButton']"
+    screenshot = "//div[@class='row parent']"
